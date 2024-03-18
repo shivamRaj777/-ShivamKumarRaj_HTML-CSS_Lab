@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+video{
+    position: fixed;
+}
+div{
+    position: absolute;
+    top:30%;
+    left:40%;
+    border: 1px solid white;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+input{
+    width: 300px;
+    border: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+input:focus{
+    background-color: rgba(75, 130, 180, 0.5) ;
+    color: white;
+    outline: none;
+}
+button{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
